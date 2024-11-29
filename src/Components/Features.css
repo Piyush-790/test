@@ -1,0 +1,52 @@
+  /* General Section Styling */
+.features-section {
+    padding: 2rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+  }
+  
+  .features-description {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Grid Layout */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+    margin-top: 10rem;
+  }
+  
+  /* Individual Card Styling */
+  .feature-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .feature-text {
+    color: #666;
+    font-size: 0.95rem;
+  }
